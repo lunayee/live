@@ -70,9 +70,9 @@
         </div>
 
         <div class="d-flex flex-column col-5">
-          <video width="352" height="198" controls>
-            <source src="http://127.0.0.1:8088/test.m3u8" type="application/x-mpegURL" />
-          </video>
+          <!-- <video width="100%" height="100%" controls>
+            <source src="http://35.201.250.84:8088/test.m3u8" type="application/x-mpegURL" />
+          </video> -->
         </div>
       </div>
       <div id="js_logo"></div>
