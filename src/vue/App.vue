@@ -16,7 +16,7 @@ import axios from "axios";
 import cityList from "@src/res/cityList";
 import zipCodeList from "@src/res/zipCodeList";
 const isProduction = process.env.NODE_ENV === "production";
-const apiUrl = isProduction ? "" : "http://www.jsene.com/Farglory/Construction/lonzhong94/index.html/";
+const apiUrl = "http://www.jsene.com/Farglory/Construction/lonzhong94/index.html/";
 const displayParItem = ["TMP", "HUM", "PM2.5", "噪音"];
 const changeParItem = [
   { input: "TMP", output: "溫度" },
